@@ -1,0 +1,22 @@
+uuid: a24621ba-9617-4e4e-8c2a-d92516a4ac2e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pattern_for_lifestyle
+label: 'Pattern For Lifestyle'
+type: 'canonical_entities:node'
+pattern: '/lifestyle/[node:title]'
+selection_criteria:
+  b20d3450-3888-48ee-bd0f-bd358b66fe9a:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: b20d3450-3888-48ee-bd0f-bd358b66fe9a
+    context_mapping:
+      node: node
+    bundles:
+      lifestyle_apps: lifestyle_apps
+selection_logic: and
+weight: -5
+relationships: {  }

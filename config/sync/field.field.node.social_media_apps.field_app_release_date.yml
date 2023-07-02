@@ -1,0 +1,21 @@
+uuid: 1a03e569-db9b-4cad-bef1-e97348e68dca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_app_release_date
+    - node.type.social_media_apps
+  module:
+    - datetime
+id: node.social_media_apps.field_app_release_date
+field_name: field_app_release_date
+entity_type: node
+bundle: social_media_apps
+label: 'App Release Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

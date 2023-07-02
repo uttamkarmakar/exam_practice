@@ -1,0 +1,36 @@
+uuid: 34183ed2-65aa-4041-8b16-11d119f4922e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.top_region.field_top_region_images
+    - field.field.paragraph.top_region.field_top_region_text
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.top_region
+  module:
+    - image
+    - text
+id: paragraph.top_region.default
+targetEntityType: paragraph
+bundle: top_region
+mode: default
+content:
+  field_top_region_images:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_top_region_text:
+    type: text_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

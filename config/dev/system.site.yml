@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 2ccd16d4-8aa1-49f1-a5e2-34d4234f3f25
+name: 'Innoraft Employeement Management Portal'
+mail: uttam.karmakar@innoraft.com
+slogan: 'Best T20 league of this planet'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

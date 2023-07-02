@@ -1,0 +1,22 @@
+uuid: 194e32c4-5153-41e5-bdaa-24459fd76449
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: social_apps_patterns
+label: 'Social Apps Patterns'
+type: 'canonical_entities:node'
+pattern: '/social/[node:title]'
+selection_criteria:
+  adaa071c-7986-465f-a092-38f5a34a097a:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: adaa071c-7986-465f-a092-38f5a34a097a
+    context_mapping:
+      node: node
+    bundles:
+      social_media_apps: social_media_apps
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,82 @@
+uuid: 079cf5a7-e33c-4a4f-9ec5-c056155050b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.lifestyle_apps.field_app_developer_s_
+    - field.field.node.lifestyle_apps.field_app_features
+    - field.field.node.lifestyle_apps.field_app_image
+    - field.field.node.lifestyle_apps.field_app_price
+    - field.field.node.lifestyle_apps.field_app_release_date
+    - field.field.node.lifestyle_apps.field_app_status
+    - node.type.lifestyle_apps
+  module:
+    - datetime
+    - image
+    - options
+    - text
+    - user
+id: node.lifestyle_apps.default
+targetEntityType: node
+bundle: lifestyle_apps
+mode: default
+content:
+  field_app_developer_s_:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_app_features:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_app_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_app_price:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_app_release_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_app_status:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

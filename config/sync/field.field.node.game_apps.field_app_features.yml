@@ -1,0 +1,21 @@
+uuid: 7c1dd30b-fb55-436d-89b4-3e9114c2aa3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_app_features
+    - node.type.game_apps
+  module:
+    - text
+id: node.game_apps.field_app_features
+field_name: field_app_features
+entity_type: node
+bundle: game_apps
+label: 'App Features'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

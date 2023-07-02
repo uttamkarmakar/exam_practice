@@ -1,0 +1,29 @@
+uuid: fee6a1df-2ceb-468c-86c1-3c378882d693
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: top_3_apps
+label: 'Top 3 Apps'
+handler: multiple
+handler_configuration: {  }
+entity_settings:
+  target_type: node
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      educational_apps: educational_apps
+      game_apps: game_apps
+      lifestyle_apps: lifestyle_apps
+      social_media_apps: social_media_apps
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: educational_apps
+queue_settings:
+  min_size: 0
+  max_size: 0
+  act_as_queue: false
+  reverse: false

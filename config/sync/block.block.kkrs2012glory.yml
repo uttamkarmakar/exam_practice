@@ -1,0 +1,25 @@
+uuid: cb785806-e20a-4887-8765-b52d0b4862c9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:15be43be-d0c9-4963-a1f2-ee3f0a1875d0'
+  module:
+    - block_content
+  theme:
+    - tara
+id: kkrs2012glory
+theme: tara
+region: footer_bottom
+weight: -5
+provider: null
+plugin: 'block_content:15be43be-d0c9-4963-a1f2-ee3f0a1875d0'
+settings:
+  id: 'block_content:15be43be-d0c9-4963-a1f2-ee3f0a1875d0'
+  label: "KKR's 2012 Glory "
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

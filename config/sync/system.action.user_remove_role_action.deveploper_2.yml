@@ -1,0 +1,14 @@
+uuid: 8a66da90-a5a5-4dd1-8bcf-bdfe32caec8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.deveploper_2
+  module:
+    - user
+id: user_remove_role_action.deveploper_2
+label: 'Remove the Deveploper 2 role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: deveploper_2

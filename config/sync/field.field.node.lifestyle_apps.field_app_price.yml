@@ -1,0 +1,23 @@
+uuid: e685d04e-0dbc-452d-8903-aaad4b9abfd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_app_price
+    - node.type.lifestyle_apps
+id: node.lifestyle_apps.field_app_price
+field_name: field_app_price
+entity_type: node
+bundle: lifestyle_apps
+label: 'App Price'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

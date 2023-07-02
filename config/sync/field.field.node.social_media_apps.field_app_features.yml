@@ -1,0 +1,21 @@
+uuid: 3f592867-e9f6-4312-82e0-1b4a111a3001
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_app_features
+    - node.type.social_media_apps
+  module:
+    - text
+id: node.social_media_apps.field_app_features
+field_name: field_app_features
+entity_type: node
+bundle: social_media_apps
+label: 'App Features'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

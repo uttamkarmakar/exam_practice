@@ -1,0 +1,28 @@
+uuid: ed7811b3-a1e1-443e-974a-313aec70faea
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.educational_apps
+    - node.type.lifestyle_apps
+  module:
+    - node
+    - shortcut
+    - toolbar
+    - tour
+id: deveploper_2
+label: 'Deveploper 2'
+weight: 6
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer shortcuts'
+  - 'create educational_apps content'
+  - 'create lifestyle_apps content'
+  - 'edit any educational_apps content'
+  - 'edit any lifestyle_apps content'
+  - 'edit own educational_apps content'
+  - 'edit own lifestyle_apps content'
+  - 'switch shortcut sets'
+  - 'view lifestyle_apps revisions'

@@ -1,0 +1,14 @@
+uuid: e1539082-f6da-48d7-a722-cd6f99b40936
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.deveploper_2
+  module:
+    - user
+id: user_add_role_action.deveploper_2
+label: 'Add the Deveploper 2 role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: deveploper_2

@@ -1,0 +1,8 @@
+uuid: bff73f33-1b21-4423-9c48-f8a20c794fd8
+langcode: en
+status: true
+dependencies: {  }
+id: apps-category-menu
+label: 'Apps Category Menu'
+description: ''
+locked: false

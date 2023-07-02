@@ -1,0 +1,16 @@
+uuid: b7b1bb2c-6ce7-424f-9132-75566d114099
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+id: super_admin
+label: 'Super Admin'
+weight: 4
+is_admin: true
+permissions:
+  - 'create field_app_status'
+  - 'edit field_app_status'
+  - 'edit own field_app_status'
+  - 'view field_app_status'
+  - 'view own field_app_status'

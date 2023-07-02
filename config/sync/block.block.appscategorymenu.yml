@@ -1,0 +1,29 @@
+uuid: 8f3c0a57-cc1f-4de3-87fd-5407194cd92e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.apps-category-menu
+  module:
+    - system
+  theme:
+    - olivero
+id: appscategorymenu
+theme: olivero
+region: content
+weight: -9
+provider: null
+plugin: 'system_menu_block:apps-category-menu'
+settings:
+  id: 'system_menu_block:apps-category-menu'
+  label: 'Apps Category Menu'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/node/43"

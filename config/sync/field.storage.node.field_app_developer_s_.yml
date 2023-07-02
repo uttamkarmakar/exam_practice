@@ -1,0 +1,20 @@
+uuid: 159064d1-cb32-4b7e-acf9-91f5de8f257d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - user
+id: node.field_app_developer_s_
+field_name: field_app_developer_s_
+entity_type: node
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

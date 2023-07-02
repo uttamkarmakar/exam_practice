@@ -1,0 +1,19 @@
+uuid: 7bb81338-73ff-4928-bf31-b04a3432b193
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_app_features
+field_name: field_app_features
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

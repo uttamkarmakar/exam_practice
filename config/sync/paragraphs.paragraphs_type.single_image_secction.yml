@@ -1,0 +1,10 @@
+uuid: 910e0bb1-adc8-42b5-9061-b6a644929cf4
+langcode: en
+status: true
+dependencies: {  }
+id: single_image_secction
+label: 'Single Image Secction'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

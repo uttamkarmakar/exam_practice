@@ -1,0 +1,23 @@
+uuid: 9ea154f9-8084-4739-b237-836aa238c861
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_app_price
+    - node.type.game_apps
+id: node.game_apps.field_app_price
+field_name: field_app_price
+entity_type: node
+bundle: game_apps
+label: 'App Price'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

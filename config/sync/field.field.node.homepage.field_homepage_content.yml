@@ -1,0 +1,35 @@
+uuid: ce36fe6d-2562-4559-aa1b-7bd04dd974c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_homepage_content
+    - node.type.homepage
+  module:
+    - entity_reference_revisions
+id: node.homepage.field_homepage_content
+field_name: field_homepage_content
+entity_type: node
+bundle: homepage
+label: 'Homepage Content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+    target_bundles_drag_drop:
+      gallery_section:
+        weight: 4
+        enabled: false
+      single_image_secction:
+        weight: 5
+        enabled: false
+      top_region:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

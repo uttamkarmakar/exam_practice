@@ -1,0 +1,35 @@
+uuid: d914217f-479c-4eca-870d-c799641081a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.top_region.field_top_region_images
+    - field.field.paragraph.top_region.field_top_region_text
+    - paragraphs.paragraphs_type.top_region
+  module:
+    - image
+    - text
+id: paragraph.top_region.default
+targetEntityType: paragraph
+bundle: top_region
+mode: default
+content:
+  field_top_region_images:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_top_region_text:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

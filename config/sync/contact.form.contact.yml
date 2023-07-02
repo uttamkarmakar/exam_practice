@@ -1,0 +1,12 @@
+uuid: fc6c4e3b-59fe-455a-b686-5f9fd674e6d5
+langcode: en
+status: true
+dependencies: {  }
+id: contact
+label: Contact
+recipients:
+  - uttam.karmakar@innoraft.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

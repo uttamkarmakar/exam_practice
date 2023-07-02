@@ -1,0 +1,21 @@
+uuid: 71984b7e-e321-4ce6-93ab-19560488a3f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_app_features
+    - node.type.educational_apps
+  module:
+    - text
+id: node.educational_apps.field_app_features
+field_name: field_app_features
+entity_type: node
+bundle: educational_apps
+label: 'App Features'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

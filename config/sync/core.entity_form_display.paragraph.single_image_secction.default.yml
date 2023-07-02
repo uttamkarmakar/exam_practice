@@ -1,0 +1,26 @@
+uuid: 4438d8f7-6eba-40e6-a68e-80e96878d341
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.single_image_secction.field_single_image
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.single_image_secction
+  module:
+    - image
+id: paragraph.single_image_secction.default
+targetEntityType: paragraph
+bundle: single_image_secction
+mode: default
+content:
+  field_single_image:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

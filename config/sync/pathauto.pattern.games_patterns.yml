@@ -1,0 +1,22 @@
+uuid: 5281c667-f50c-4c59-9903-7bcd076b10be
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: games_patterns
+label: 'Games Patterns'
+type: 'canonical_entities:node'
+pattern: '/games/[node:title]'
+selection_criteria:
+  73733d8b-b127-4a86-bd49-bba4e00114ce:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 73733d8b-b127-4a86-bd49-bba4e00114ce
+    context_mapping:
+      node: node
+    bundles:
+      game_apps: game_apps
+selection_logic: and
+weight: -5
+relationships: {  }

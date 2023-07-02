@@ -1,0 +1,22 @@
+uuid: 05c1e50f-f9aa-4ac5-8e47-81eca6770815
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.game_apps
+id: node.game_apps.promote
+field_name: promote
+entity_type: node
+bundle: game_apps
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

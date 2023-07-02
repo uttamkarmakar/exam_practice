@@ -1,0 +1,17 @@
+uuid: b33e4961-4852-486d-965b-0846261e1273
+langcode: en
+status: true
+dependencies: {  }
+id: dev
+label: Dev
+description: ''
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/dev
+module:
+  webform_ui: 0
+theme: {  }
+complete_list:
+  - system.site
+partial_list: {  }

@@ -1,0 +1,30 @@
+uuid: 11310554-e88c-4ce8-b71f-aa69eee390ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.related_games_apps
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: views_block__related_games_apps_block_1
+theme: olivero
+region: content_below
+weight: 0
+provider: null
+plugin: 'views_block:related_games_apps-block_1'
+settings:
+  id: 'views_block:related_games_apps-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/games/*'

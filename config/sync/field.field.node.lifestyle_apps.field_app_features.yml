@@ -1,0 +1,21 @@
+uuid: dd504f90-864b-4c31-8b9a-da63b273ccc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_app_features
+    - node.type.lifestyle_apps
+  module:
+    - text
+id: node.lifestyle_apps.field_app_features
+field_name: field_app_features
+entity_type: node
+bundle: lifestyle_apps
+label: 'App Features'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

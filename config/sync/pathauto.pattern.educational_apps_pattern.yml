@@ -1,0 +1,22 @@
+uuid: 6ab8511d-c001-4074-8fd8-371abd639a78
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: educational_apps_pattern
+label: 'Pattern For Educational Apps'
+type: 'canonical_entities:node'
+pattern: '/educational/[node:title]'
+selection_criteria:
+  6ec844bd-dd91-45aa-8198-c0bc43266048:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 6ec844bd-dd91-45aa-8198-c0bc43266048
+    context_mapping:
+      node: node
+    bundles:
+      educational_apps: educational_apps
+selection_logic: and
+weight: -5
+relationships: {  }

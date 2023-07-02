@@ -1,0 +1,22 @@
+uuid: 0898b16b-d2cd-44b9-96c3-4869d9c9389e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.game_apps
+  module:
+    - node
+    - shortcut
+    - toolbar
+    - tour
+id: developer_1
+label: 'Developer 1'
+weight: 5
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer shortcuts'
+  - 'create game_apps content'
+  - 'edit any game_apps content'
+  - 'switch shortcut sets'

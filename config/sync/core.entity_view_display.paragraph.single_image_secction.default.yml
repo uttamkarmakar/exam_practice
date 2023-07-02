@@ -1,0 +1,26 @@
+uuid: d5e97425-dc7e-475b-9283-e7e849c85c3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.single_image_secction.field_single_image
+    - paragraphs.paragraphs_type.single_image_secction
+  module:
+    - image
+id: paragraph.single_image_secction.default
+targetEntityType: paragraph
+bundle: single_image_secction
+mode: default
+content:
+  field_single_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

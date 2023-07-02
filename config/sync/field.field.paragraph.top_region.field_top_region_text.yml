@@ -1,0 +1,21 @@
+uuid: d31a8126-148e-4735-805f-04b9ca643116
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_top_region_text
+    - paragraphs.paragraphs_type.top_region
+  module:
+    - text
+id: paragraph.top_region.field_top_region_text
+field_name: field_top_region_text
+entity_type: paragraph
+bundle: top_region
+label: 'Top Region Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,30 @@
+uuid: b2603527-e95f-44a3-bcc3-02619f7f9284
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.apps_developed
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: views_block__apps_developed_block_1
+theme: olivero
+region: sidebar
+weight: -9
+provider: null
+plugin: 'views_block:apps_developed-block_1'
+settings:
+  id: 'views_block:apps_developed-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/user/*'

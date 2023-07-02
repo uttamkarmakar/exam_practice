@@ -1,0 +1,23 @@
+uuid: 611acd60-f588-4704-bc0f-23c007ee73de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_app_price
+    - node.type.social_media_apps
+id: node.social_media_apps.field_app_price
+field_name: field_app_price
+entity_type: node
+bundle: social_media_apps
+label: 'App Price'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

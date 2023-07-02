@@ -1,0 +1,32 @@
+uuid: 11e85717-cbb5-4231-adc0-6d00f9c24b32
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.educational_apps.field_app_developer_s_
+    - field.field.node.educational_apps.field_app_features
+    - field.field.node.educational_apps.field_app_image
+    - field.field.node.educational_apps.field_app_price
+    - field.field.node.educational_apps.field_app_release_date
+    - field.field.node.educational_apps.field_app_status
+    - node.type.educational_apps
+  module:
+    - user
+id: node.educational_apps.teaser
+targetEntityType: node
+bundle: educational_apps
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_app_developer_s_: true
+  field_app_features: true
+  field_app_image: true
+  field_app_price: true
+  field_app_release_date: true
+  field_app_status: true
